@@ -1,0 +1,14 @@
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\practice_task1.exe.config
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\practice_task1.exe
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\practice_task1.pdb
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.csproj.AssemblyReference.cache
+C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.csproj.SuggestedBindingRedirects.cache
+C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.Form1.resources
+C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.Properties.Resources.resources
+C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.csproj.GenerateResource.cache
+C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.csproj.CoreCompileInputs.cache
+C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.csproj.CopyComplete
+C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.exe
+C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.pdb
