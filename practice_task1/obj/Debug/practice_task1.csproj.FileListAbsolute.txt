@@ -12,3 +12,11 @@ C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_tas
 C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.csproj.CopyComplete
 C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.exe
 C:\Users\panki\source\repos\practice_task1\practice_task1\obj\Debug\practice_task1.pdb
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\xunit.abstractions.dll
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\xunit.assert.dll
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\xunit.core.dll
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\xunit.execution.desktop.dll
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\xunit.abstractions.xml
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\xunit.assert.xml
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\xunit.core.xml
+C:\Users\panki\source\repos\practice_task1\practice_task1\bin\Debug\xunit.execution.desktop.xml
