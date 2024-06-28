@@ -2,15 +2,8 @@
 {
     partial class Form1
     {
-        /// <summary>
-        /// Обов'язкова змінна дизайнера.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Освобождає всі використовувані ресурси.
-        /// </summary>
-        /// <param name="disposing">істинно, якщо керовані ресурси повинні бути видалені; інакше хибно.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,12 +13,6 @@
             base.Dispose(disposing);
         }
 
-        #region Код, створений конструктором форм Windows
-
-        /// <summary>
-        /// Метод, необхідний для підтримки конструктора - не змінюйте 
-        /// його зміст за допомогою редактора коду.
-        /// </summary>
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -36,6 +23,10 @@
             this.buttonDelete = new System.Windows.Forms.Button();
             this.labelName = new System.Windows.Forms.Label();
             this.labelAge = new System.Windows.Forms.Label();
+            this.buttonOpenAddresses = new System.Windows.Forms.Button();
+            this.labelAddressId = new System.Windows.Forms.Label();
+            this.textBoxAddressId = new System.Windows.Forms.TextBox();
+            this.buttonLinkAddress = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,11 +100,51 @@
             this.labelAge.TabIndex = 7;
             this.labelAge.Text = "Age";
             // 
+            // buttonOpenAddresses
+            // 
+            this.buttonOpenAddresses.Location = new System.Drawing.Point(592, 198);
+            this.buttonOpenAddresses.Name = "buttonOpenAddresses";
+            this.buttonOpenAddresses.Size = new System.Drawing.Size(140, 23);
+            this.buttonOpenAddresses.TabIndex = 8;
+            this.buttonOpenAddresses.Text = "Manage Addresses";
+            this.buttonOpenAddresses.UseVisualStyleBackColor = true;
+            this.buttonOpenAddresses.Click += new System.EventHandler(this.buttonOpenAddresses_Click);
+            // 
+            // labelAddressId
+            // 
+            this.labelAddressId.AutoSize = true;
+            this.labelAddressId.Location = new System.Drawing.Point(12, 240);
+            this.labelAddressId.Name = "labelAddressId";
+            this.labelAddressId.Size = new System.Drawing.Size(58, 13);
+            this.labelAddressId.TabIndex = 9;
+            this.labelAddressId.Text = "Address ID";
+            // 
+            // textBoxAddressId
+            // 
+            this.textBoxAddressId.Location = new System.Drawing.Point(76, 237);
+            this.textBoxAddressId.Name = "textBoxAddressId";
+            this.textBoxAddressId.Size = new System.Drawing.Size(100, 20);
+            this.textBoxAddressId.TabIndex = 10;
+            // 
+            // buttonLinkAddress
+            // 
+            this.buttonLinkAddress.Location = new System.Drawing.Point(182, 235);
+            this.buttonLinkAddress.Name = "buttonLinkAddress";
+            this.buttonLinkAddress.Size = new System.Drawing.Size(75, 23);
+            this.buttonLinkAddress.TabIndex = 11;
+            this.buttonLinkAddress.Text = "Link Address";
+            this.buttonLinkAddress.UseVisualStyleBackColor = true;
+            this.buttonLinkAddress.Click += new System.EventHandler(this.buttonLinkAddress_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonLinkAddress);
+            this.Controls.Add(this.textBoxAddressId);
+            this.Controls.Add(this.labelAddressId);
+            this.Controls.Add(this.buttonOpenAddresses);
             this.Controls.Add(this.labelAge);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.buttonDelete);
@@ -129,8 +160,6 @@
             this.PerformLayout();
         }
 
-        #endregion
-
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.TextBox textBoxAge;
@@ -139,5 +168,9 @@
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.Label labelAge;
+        private System.Windows.Forms.Button buttonOpenAddresses;
+        private System.Windows.Forms.Label labelAddressId;
+        private System.Windows.Forms.TextBox textBoxAddressId;
+        private System.Windows.Forms.Button buttonLinkAddress;
     }
 }
